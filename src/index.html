@@ -5,68 +5,206 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="bg-gray-400" >
-    <!--  -->
-    <header class="container m-auto px-3 py-20 flex flex-col gap-9 bg-top bg-cover " style="background-image: url(../images/bgbarriga.webp);">
-
-        <h1 class="text-2xl text-white font-bold text-center mb-9">
+  <body >
+    <header id="header" class="py-20 flex flex-col gap-9 bg-top bg-cover px-3 sm:px-20" style="background-image: url(../images/bgbarriga.webp);">
+      <div class="sm:w-2/3">
+        <h1 class="text-2xl text-white font-bold text-center mb-9 sm:text-5xl sm:text-left">
           Talvez você esteja com uma substância tóxica crescendo dentro de você
           desde sua infância e não saiba.
         </h1>
-        <h2 class="text-2xl font-semibold text-yellow-400 text-center">
+        <h2 class="text-2xl font-semibold text-yellow-400 text-center mb-6 sm:text-5xl sm:text-left">
           Esta substância pode ser a responsável por toda flacidez em sua barriga,
           coxas e rosto.
         </h1>
-
-
-        <div class="bg-white ">
-            <div>
-              <img src="../images/doutors.webp" class="w-20 h-20 -m-3 rounded-full absolute block " />
-              <h2 class="text-white mx-auto bg-red-600 py-2 pl-20 pr-5 text-2xl font-semibold"> Gustavo Henrique - Especialista em pele</h2>
+      </div>
+      <div class="sm:w-1/2">
+        <div class="bg-white mx-2 sm:mb-12">
+            <div >
+              <img src="../images/doutors.webp" class="w-20 h-20 -m-3 -mt-6 rounded-full absolute block " />
+              <h2 class="text-white mx-auto bg-red-600 py-2 pl-20 pr-5 text-2xl font-semibold sm:text-left"> Gustavo Henrique - Especialista em pele</h2>
             </div>
-          <p class="px-6 pt-5 mb-4 font-semibold text-xl leading-8">
+          <p class="px-6 pt-5 mb-4 font-semibold text-xl leading-8 text-center sm:text-left">
             "Se você sente que os anos estão passando mais rápidos e sua pele está
             sendo sugada pela gravidade, tenho um alerta gravíssimo:
           </p>
-          <p class="px-6 underline pb-5 font-semibold text-xl leading-8">
+          <p class="px-6 underline pb-5 font-semibold text-xl leading-8 text-center sm:text-left">
             O vilão da flacidez está na sua cozinha escondido e roubando sua
             juventude."
           </p>
         </div>
-          <p class="text-white font-medium my-3 text-lg">
+          <p class="text-white font-medium my-3 text-lg text-center sm:text-left">
             Todos os dias recebo mensagens perguntando: “Doutor, não consigo
             tratar a flacidez, tenho pele sobrando na barriga, pernas, papada e
             até mesmo embaixo dos olhos, não sei mais o que fazer.”
           </p>
-          <p class="text-white font-medium my-3 text-lg">Ou então…</p>
-          <p class="text-white font-medium my-3 text-lg">
+          <p class="text-white font-medium my-3 text-lg text-center sm:text-left">Ou então…</p>
+          <p class="text-white font-medium my-3 text-lg text-center sm:text-left">
             “Doutor, eu me sinto péssima, depois que eu engravidei meu corpo nunca
             mais foi o mesmo. Eu faço dieta, academia e tomo remédios, mas nada
             tira essa palanca do meu corpo, eu não sei mais o que fazer”.
           </p>
-          <p class="text-white font-medium my-3 text-lg">E por receber essas perguntas eu escrevi esse breve artigo.</p>
-          <p class="text-white font-medium my-3 text-lg">
+          <p class="text-white font-medium my-3 text-lg text-center sm:text-left">E por receber essas perguntas eu escrevi esse breve artigo.</p>
+          <p class="text-white font-medium my-3 text-lg text-center sm:text-left">
             Mas antes de continuar, vamos entender se esse texto deve, ou não, ser
             lido por você…
           </p>
-
+      </div>
     </header>
-    <svg class="base-hd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <svg class="base-hd h-12 w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
     </svg>
-    <!-- <main>
-      <section class="container mx-auto flex flex-row">
-        <img src="../images/mulher-triste.webp" alt="Mulher triste" class="max-w-72">
-        <div class="">
-          <h1>Se você responder sim para alguma das perguntas abaixo, eu recomendo que você leia essa apresentação ainda hoje.
-          </h1>
-          <h2>1. Você está sofrendo com barriga flácida, a pele do “tchauzinho” abaixo dos braços ou papada?
-          </h2>
-          <h2>2. Sente que seu corpo está ficando menos atraente com o passar dos anos e vê sua auto estima diminuir todos os dias?</h2>
-          <h2>3. Já tentou alguma solução para tratar a flacidez e envelhecimento precoce, mas não teve resultados?
-          </h2>
+    <main>
+      <section id="questoes" class="text-gray-900">
+        <div class="flex flex-col items-center sm:items-start sm:flex-row justify-center bg-white px-20 pt-20 pb-12">
+          <img src="../images/mulher-triste.webp" alt="Mulher triste" class="block w-72 mt-20 sm:mt-0 mb-8 sm:basis-1/3 px-3">
+          <div class="px-3 sm:basis-2/3">
+            <h1 class="text-xl font-bold text-center sm:text-3xl sm:text-left">Se você responder sim para alguma das perguntas abaixo, eu recomendo que você leia essa apresentação ainda hoje.
+            </h1>
+            <h2 class="text-center py-3 px-5 font-medium bg-gray-50 text-lg mb-5 text-gray-900 sm:text-left "><span class="text-red-600">1.</span> Você está sofrendo com barriga flácida, a pele do “tchauzinho” abaixo dos braços ou papada?
+            </h2>
+            <h2 class="text-center py-3 px-5 font-medium bg-gray-50 text-lg mb-5 text-gray-900 sm:text-left "><span class="text-red-600">2.</span> Sente que seu corpo está ficando menos atraente com o passar dos anos e vê sua auto estima diminuir todos os dias?</h2>
+            <h2 class="text-center py-3 px-5 font-medium bg-gray-50 text-lg mb-5 text-gray-900 sm:text-left"><span class="text-red-600">3.</span> Já tentou alguma solução para tratar a flacidez e envelhecimento precoce, mas não teve resultados?
+            </h2>
+            <p class="text-center font-medium mb-3 sm:text-left sm:text-lg">Se para alguma dessas perguntas você disse sim, esse breve artigo foi feito especialmente para você.
+            </p>
+            <p class="text-center mb-3 sm:text-left sm:text-lg">Isso porque nas linhas abaixo eu vou mostrar e provar que você está sendo envenenada, desde criança, para desenvolver uma pele enrugada e flácida…</p>
+            <p class="text-center mb-3 sm:text-left sm:text-lg">E digo mais, esse veneno está guardado na cozinha da sua casa, envenenando não só você, como também toda a sua família silenciosamente….</p>
+            <p class="text-center mb-3 sm:text-left sm:text-lg">Após alguns anos sendo exposta a essa toxina, as consequências podem ser irreversíveis e sérias.
+            </p>
+            <p class="text-center mb-3 sm:text-left sm:text-lg">Não estou falando apenas de flacidez ou marcas de idade…</p>
+            <p class="text-center mb-3 text-red-600 text-xl font-bold sm:text-left">Essa terrível e silenciosa toxina que está alojada agora no seu corpo pode desenvolver até mesmo doenças terríveis como o câncer.</p>
+            <p class="text-center mb-3 sm:text-left sm:text-lg">E nas linhas abaixo vou mostrar como você vai desintoxicar o seu corpo de forma natural e ainda restaurar sua pele dos danos causados por essa substância.</p>
+          </div>
         </div>
       </section>
-    </main> -->
+      <section id="atenção" class="py-20 px-1 flex flex-col sm:items-center gap-9 bg-center bg-fixed bg-no-repeat text-gray-800" style="background-image: url(../images/bg2.webp);">
+        <svg class="base-atc h-12 bg-none w-full relative -mt-20" style="fill: white;"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+        <div class="bg-white px-6 pb-4 lg:max-w-4xl">
+          <div class="sm:px-72">
+            <h1 class="text-4xl text-white font-medium text-center mx-auto -mt-16 -mb-3 pt-5 pb-20 w-full"
+            style="
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 70%, 0 50%);
+            background: -moz-linear-gradient(45deg, rgba(169, 38, 38, 1) 0%, rgba(217, 43, 43, 1) 100%);
+            background: linear-gradient(45deg, rgba(169, 38, 38, 1) 0%, rgba(217, 43, 43, 1) 100%);">ATENÇÃO!!!</h1>
+          </div>
+          <h2 class="text-lg font-extrabold text-center leading-5 mb-10 sm:w-3/5 sm:mx-auto">ESSE ARTIGO PODE SAIR DO AR AINDA HOJE, CASO TENHA INTERESSE LEIA IMEDIATAMENTE.
+          </h2>
+          <p class="text-center mb-5 sm:text-left sm:text-lg">Leia essa carta aberta até o final e eu garanto que você vai saber exatamente o que fazer para acabar definitivamente com esse problema e conquistar o corpo e a autoestima que você busca e merece.
+          </p>
+          <ul class="px-3 text-xl font-medium sm:px-6">
+            <li class="mb-6 sm:text-left"> <svg class="inline" fill="#000000" width="19px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M5.3,11.214A6.791,6.791,0,0,0,10.792,22h2.416A6.791,6.791,0,0,0,18.7,11.214L12,2Zm5.946,8.036a5.24,5.24,0,0,1-4.631-2.779,1,1,0,1,1,1.766-.942,3.239,3.239,0,0,0,2.865,1.721,1,1,0,0,1,0,2Z"></path></g></svg> Estou falando de eliminar essa pele flácida que esteja incomodando ou até mesmo impedindo você de viver a sua vida…
+            </li>
+            <li class="mb-6 sm:text-left"> <svg class="inline" fill="#000000" width="19px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M5.3,11.214A6.791,6.791,0,0,0,10.792,22h2.416A6.791,6.791,0,0,0,18.7,11.214L12,2Zm5.946,8.036a5.24,5.24,0,0,1-4.631-2.779,1,1,0,1,1,1.766-.942,3.239,3.239,0,0,0,2.865,1.721,1,1,0,0,1,0,2Z"></path></g></svg> Curtir na praia com aquele biquíni que está guardado no armário…
+            </li>
+            <li class="mb-6 sm:text-left"> <svg class="inline" fill="#000000" width="19px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M5.3,11.214A6.791,6.791,0,0,0,10.792,22h2.416A6.791,6.791,0,0,0,18.7,11.214L12,2Zm5.946,8.036a5.24,5.24,0,0,1-4.631-2.779,1,1,0,1,1,1.766-.942,3.239,3.239,0,0,0,2.865,1.721,1,1,0,0,1,0,2Z"></path></g></svg> Usar aquele short, sem medo do julgamento por causa da flacidez nas coxas…
+            </li>
+            <li class="mb-6 sm:text-left"> <svg class="inline" fill="#000000" width="19px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M5.3,11.214A6.791,6.791,0,0,0,10.792,22h2.416A6.791,6.791,0,0,0,18.7,11.214L12,2Zm5.946,8.036a5.24,5.24,0,0,1-4.631-2.779,1,1,0,1,1,1.766-.942,3.239,3.239,0,0,0,2.865,1.721,1,1,0,0,1,0,2Z"></path></g></svg> Recuperar aquela barriguinha lisa que as mulheres tanto amam em si mesmas…
+            </li>
+            <li class="mb-6 sm:text-left"> <svg class="inline" fill="#000000" width="19px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M5.3,11.214A6.791,6.791,0,0,0,10.792,22h2.416A6.791,6.791,0,0,0,18.7,11.214L12,2Zm5.946,8.036a5.24,5.24,0,0,1-4.631-2.779,1,1,0,1,1,1.766-.942,3.239,3.239,0,0,0,2.865,1.721,1,1,0,0,1,0,2Z"></path></g></svg> Ou simplesmente acabar com aquela papada que você pensava que só teria solução com cirurgia.
+            </li>
+          </ul>
+          <p class="bg-gray-50 text-center">Isso é totalmente possível e eu vou mostrar como abaixo.
+          </p>
+      </div>
+      </section>
+      <svg class="base-atc h-12 bg-none w-full relative " style="fill:#323232;"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+      <section id="depoimento" class="py-16 bg-center bg-cover text-gray-900" style="background-image: url(../images/bg3.webp);">
+        <div class="px-6 pb-4 sm:max-w-4xl m-auto">
+          <div class="flex flex-col items-center">
+            <h1 class="text-xl text-center mb-12 sm:text-6xl font-bold">Outras pessoas que leram a matéria já foram ajudadas.</h1>
+            <img src="../images/cmt-1.webp" class="block shadow-lg rounded mb-9 sm:max-w-lg">
+            <img src="../images/cmt-2.webp" class="block shadow-lg rounded mb-9 sm:max-w-lg">
+            <img src="../images/cmt-3.webp" class="block shadow-lg rounded mb-9 sm:max-w-lg">
+          </div>
+        </div>
+      </section>
+      <section id="drgustavo" class="py-16 bg-center bg-cover text-gray-900" style="background-image: url(../images/bg4.webp);">
+        <svg class="base-atc h-12 bg-none w-full relative -mt-16 mb-6" style="fill: white;"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+        <div class="px-6 pb-4 sm:max-w-4xl m-auto sm:text-lg ">
+          <div class="flex flex-col items-center text-center">
+            <div class="bg-white flex flex-col sm-p10 p-7 mx-auto mb-1 shadow rounded-sm space-y-4 sm:text-left ">
+              <h1 class="text-xl font-extrabold sm:text-3xl text-center sm:px-36">Muito prazer, eu sou o Gustavo Henrique, especialista em rejuvenescimento e tratamento da pele…
+              </h1>
+              <p class="leading-9">Nos últimos 8 anos eu dediquei a minha carreira na busca por uma solução para problemas de envelhecimento e principalmente flacidez.
+              </p >
+              <p class="leading-9"class="leading-9">Eu já já explico porque despertei esse interesse, mas antes de tudo você precisa saber que, na minha busca, eu fracassei muitas vezes com soluções falsas…
+              </p>
+              <p class="font-bold leading-9">Soluções que talvez você também já tenha tentado.</p>
+              <p class="leading-9">Testei colágeno, pílulas vendidas na internet, cremes, drenagem linfática e, até mesmo botox…</p>
+            </div>
+            <h2 class="my-12 text-gray-100 font-bold text-xl sm:text-3xl ">Mas entre tantas soluções existentes no Brasil, nenhuma foi capaz de devolver a autoestima da mulher mais importante da minha vida: A minha esposa.
+            </h2>
+            <div class="bg-white flex flex-col sm:flex-row p-7 sm:items-start sm:p-10 mx-auto mb-1 shadow rounded-sm space-y-4 sm:text-left">
+              <div class="flex flex-col space-y-4">
+                <p class="leading-9">O nome dela é Samanta e quando tínhamos 19 anos ela engravidou de gêmeos. Foi uma gravidez linda, mas as consequências de ganhar quase 28 quilos foram terríveis.
+                </p>
+                <p class="leading-9">Tratar a flacidez pós parto já é difícil, mas eu não contava com uma coisa…
+                </p>
+                <p class="leading-9">O corpo da minha esposa, o meu e provavelmente o seu está infestado por essa terrível substância tóxica que impede sua pele de absorver os principais nutrientes.</p>
+                <p class="leading-9">As consequências foram: <strong>Um corpo cheio de flacidez e uma mulher deprimida sem autoestima.</strong></p>
+              </div>
+              <img src="../images/amanda.webp" class="w-3/4 mx-auto mb-9 sm:w-2/5 sm:ml-8 sm:h-full" alt="amanda">
+            </div>
+            <h2 class="my-12 text-gray-100 font-bold text-xl sm:text-3xl ">E após tentar absolutamente de tudo para restaurar o corpo da minha esposa e fracassar com todas as alternativas eu iniciei uma profunda busca por uma solução capaz de tratar a sua flacidez e devolver o sorriso do seu rosto.
+            </h2>
+            <div class="bg-white flex flex-col sm:flex-row p-7 mx-auto mb-1 shadow rounded-sm space-y-4 sm:text-left">
+              <img src="../images/barriga.webp" class="w-3/4 mx-auto mb-9 sm:w-2/5 sm:mr-8 sm:h-full" alt="amanda">
+              <div class="flex flex-col space-y-4">
+                <p class="leading-9">Foram anos de procura, lendo dezenas de livros, indo a incontáveis conferências médicas, para finalmente encontrar uma solução em uma feira na zona sul de sul de São Paulo.
+                </p>
+                <p class="leading-9">Solução essa que estava o tempo todo bem debaixo do meu nariz!
+                </p>
+                <p class="leading-9">Foi em uma convenção de dermatologia na Universidade de São paulo (USP), onde conheci o especialista em saúde da pele, Doutor Jean.</p>
+                <p class="leading-9">Essa solução que vou compartilhar com você está nas linhas abaixo, mas antes…</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg class="base-atc h-12 bg-none w-full relative " style="fill:#2B0200;"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+      <section id="substancia">
+        <div class="px-9 mt-20 mb-8 text-center sm:text-left space-y-5 text-gray-900 sm:w-4/6 mx-auto">
+          <h1 class="text-xl sm:text-3xl font-bold text-center">Você precisa entender como essa substância tóxica que você guarda na cozinha está roubando a sua juventude.</h1>
+          <img src="../images/banner-agro.webp" class="sm:w-5/6 sm:mx-auto block">
+          <p>Essa substância está envenenando e roubando a elasticidade da sua pele desde quando você era criança, mas só agora as consequências começaram a aparecer…</p>
+          <p>Ela provavelmente está presente na sua cozinha neste exato momento e não tem como fugir dela…</p>
+          <p>Pode estar nas suas frutas preferidas, maçãs, bananas, laranjas…</p>
+          <p>Pode, inclusive, estar no arroz, feijão e até mesmo no trigo…</p>
+          <p>E com certeza está em grande quantidade no seu corpo, impedindo que o colágeno seja sintetizado pelo seu organismo.</p>
+          <p>Estou falando das toxinas do agrotóxico.</p>
+          <img src="../images/materia1.webp" class="sm:w-5/6 sm:mx-auto" >
+          <p>São 115 elementos químicos, até mesmo radioativos que são despejados nos nossos alimentos durante anos…</p>
+          <p>Essas substâncias tóxicas se acumulam ano após ano trazendo consequências mais sérias do que você imagina.</p>
+          <p>Impedindo que o colágeno e o ácido hialurônico sejam processados pelo seu corpo…</p>
+          <p>Enquanto essas toxinas estiverem presas dentro de você, não importa quanto colágeno você tome, quanto serum você passe, nem mesmo quanto ácido hialurônico você compre.</p>
+          <p>Nada vai funcionar para tratar flacidez e rugas.</p>
+        </div>
+      </section>
+      <svg class="base-atc h-12 bg-none w-full relative " style="fill:white;"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+      <section id="substancia2" class="py-16 px-3 bg-center bg-fixed text-gray-900" style="background-image: url(../images/bg5.webp);">
+        <svg class="base-atc h-12 bg-none w-full relative -mt-16" style="fill: white;"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+        <div class="text-center bg-white mt-10 space-y-6 p-7 sm:w-4/6 sm:mx-auto rounded shadow sm:text-lg sm:text-left">
+          <h1 class="font-bold text-3xl sm:text-center">E digo mais!</h1>
+          <p>A flacidez e surgimento de rugas é apenas o começo de um problema que se torna cada vez mais sério…</p>
+          <p>Isso porque altas quantidades dessas substâncias no organismo por longos períodos de tempo podem desenvolver problemas respiratórios como sinusite, rinite e até mesmo alguns tipos de câncer.</p>
+          <img src="../images/materia2.webp" class="sm:w-5/6 sm:mx-auto">
+          <p>Nesse momento, eu digo para você o mesmo que disse para minha esposa anos atrás: A culpa não é sua.</p>
+          <p>A indústria alimentícia abusa cada vez mais desses recursos buscando mais lucros e quem paga a conta é você!</p>
+          <img src="../images/materia3.webp" class="sm:w-5/6 sm:mx-auto">
+        </div>
+      </section>
+    </main>
   </body>
 </html>
